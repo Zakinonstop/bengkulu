@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* baru */
+.layout-baru {
+    padding: 5cm;
+}
+
+.navbar-1-baru {
+    height: 20cm;
+}
+
+.klu-kiri {
+    margin-left: 2cm;
+    margin-top: 1cm;
+    line-height: 3cm;
+    letter-spacing: 0.2cm;
+}
+
+.klu-kiri span {
+    font-size: 2vw; 
+    font-weight: 600;
+}
+
+.klu-kanan {
+    line-height: 4cm;
+    letter-spacing: 0.2cm;
+    margin-left: 2cm; 
+    margin-top: 2cm;
+}
+
+.klu-kanan span {
+    font-size: 2.7vw; 
+    font-weight: 600;
+}
+
+.navbar-2-baru {
+    height: 30cm;
+}
+
+.kualitas-text span{
+    font-size: 7vw; 
+    font-weight: 600; 
+    line-height: 13cm; 
+    text-shadow: 0cm 0cm 10cm rgb(0, 0, 0);
+}
+
+.navbar-3-baru {
+    height: 25cm;
+}
+
+.jam-text {
+    font-size: 4vw; 
+    font-weight: 600;
+}
+
+.number-text {
+    width: 85cm;
+    height: 85cm;
+    border-radius: 50%;
+}
+
+.number-text h1 {
+    margin-top: -13cm;
+    margin-left: -4cm;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: -4cm;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2.5cm;
+}
+
+.navbar-5-baru {
+    height: 25cm;
+}
+
+.category-text {
+    font-size: 8vw; 
+    font-weight: 600;
+}
+
+.navbar-6-baru {
+    height: 40cm;
+    /* background-color: #EEEEEE; */
+}
+
+.col-kiri {
+    padding-left: 10cm;
+    height: 40cm;
+}
+
+.tes {
+    background-color: #101532;
+    height: 40cm;
+    border-radius: 2cm;
+    padding: 4cm;
+    
+}
+.tes2 {
+    background-color: #101532;
+    height: 40cm;
+    border-radius: 2cm;
+    padding: 4cm;
+    
+}
+
+.col-kanan {
+    padding-right: 10cm;
+    height: 40cm;
+}
+
