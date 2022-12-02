@@ -8,7 +8,7 @@ class Baru extends CI_Controller {
         $data = [
             'getApi'=> json_decode($this->url_get_contents()),
         ];
-        $this->load->view('baru', $data);
+        $this->load->view('baru-2', $data);
 	}
 
     function url_get_contents()
