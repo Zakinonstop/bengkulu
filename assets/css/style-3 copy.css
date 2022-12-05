@@ -5,15 +5,11 @@
 }
 
 .layout-baru {
-    min-height: 100vh;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 2%;
 }
 
 .tempat-gambar {
-    height: 3vw;
+    height: 8vw;
 }
 
 .gambar img {
@@ -22,82 +18,96 @@
 }
 
 .klu-kiri, .klu-kanan {
-    margin-left: 0.5vw;
+    margin-left: 1vw;
     /* line-height: ; */
     /* letter-spacing: 0.2cm;  */
 } 
 
 .klu-kiri span, .klu-kanan span {
-    font-size: 1vw;
+    font-size: 2.7vw;
     /* line-height: ; */
     /* letter-spacing: 0.2cm;  */
 } 
 
-.klu-kiri {
-    line-height: 1vw;
+.klu-kiri
+{
+    line-height: 2.5vw;
 }
 
-.klu-kanan {
-    line-height: 1.2vw;
-    margin-top: 0.3vw;
+.klu-kanan
+{
+    
+    line-height: 3vw;
+    margin-top: 1.4vw;
 }
+
+
+
 
 .kualitas-text {
-    margin-top: 1vw;
-    font-size: 5vw;
+    margin-top: 2vw;
+    font-size: 7vw;
     font-weight: 600;
-    line-height: 5vw;
 }
 
 .jam-text {
-    margin-bottom: 0.5vw;
-    font-size: 2.5vw;
+    margin-bottom: 1vw;
+    font-size: 3.6vw;
 }
 
 .number-text {
-    width: 28vw;
-    height: 20vw;
+    width: 50vw;
+    height: 50vw;
     background-color: green;
     border-radius: 50%;
 }
 
 .number-text h1 {
-    margin-top: -2vw;
-    margin-left: -1vw;
+    margin-top: -4vw;
+    margin-left: -4vw;
     font-family: 'Pacifico', cursive;
+    letter-spacing: -4vw;
     -webkit-text-stroke: black;
-    -webkit-text-stroke-width: 0.8vw;
+    -webkit-text-stroke-width: 2vw;
+}
+
+.number-text-number {
+    font-size: 30vw;
+}
+.category-text {
+    margin: 1vw 0;
 }
 
 .baik-text {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 600;
 }
 
 .param-text {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     font-weight: 600;
 }
 
 .tes, .tes2 {
     background-color: black;
-    border-radius: 0.7vw;
+    border-radius: 1.5vw;
     padding: 2vw;
 }
 
-
 .konsentrasi-text {
-    margin-top: -1vw;
+    margin-top: -2.3vw;
+    font-size: 6vw; 
+    font-weight: 600; 
+    color: yellow;
 }
-.o3-text, .konsentrasi-text {
-    font-size: 4vw; 
+.o3-text {
+    font-size: 6vw; 
     font-weight: 600; 
     color: yellow; 
 }
 
 .ug-text {
-    font-size: 2vw;
-    margin-top: -1vw;
+margin-top: -2vw;
 }
 
 

@@ -59,7 +59,7 @@
             <div class="d-flex justify-content-center navbar-4-baru">
                 <div class="d-flex justify-content-center">
                     <div class="number-text text-center">
-                        <h1 class="number-text-number text-center text-white"><?= $getApi->data->pm25 ?></h1>
+                        <h1 class="number-text-number text-center text-white"><?= $getApi->data->o3 ?></h1>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
             <div class="d-flex justify-content-center navbar-5-baru">
                 <div class="d-flex justify-content-center">
                     <div class="category-text category-nya text-center">
-                        <input hidden class="category" type="text" value="<?= $getApi->data->c_pm25 ?>">
+                        <input hidden class="category" type="text" value="<?= $getApi->data->c_o3 ?>">
                         <span class="text-white baik-text"></span>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                             <span class="text-left text-white param-text">Parameter Kritis</span>
                         </div>
                         <div class="d-flex justify-content-end value-text">
-                            <span class="o3-text" align="right">PM<sub>2.5</sub></span>
+                            <span class="o3-text" align="right">O<sub>3</sub></span>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                             <span class="konsentrasi-text" align="right"><?= $getApi->data->o3; ?></span>
                         </div>
                         <div class="d-flex justify-content-end value-text">
-                            <span class="text-white ug-text" align="right">ug/m<sup>3</sup></span>
+                            <span class="text-white ug-text" style="font-size: 3vw;" align="right">ug/m<sup>3</sup></span>
                         </div>
                     </div>
                 </div>
@@ -149,44 +149,39 @@
                     $('.number-text').css('background-color', 'green');
                     $('.baik-text').html('Baik');
                     $('.number-text-number').css('font-size', '');
-                    $('.number-text-number').css('font-size', '16vw');
+                    $('.number-text-number').css('font-size', '40vw');
                     $('.number-text-number').css('margin-top', '');
-                    $('.number-text h1').css('letter-spacing', '-1.2vw');
                 } else if (category == 2) {
                     $('.number-text').css('background-color', '');
                     $('.number-text').css('background-color', 'blue');
                     $('.baik-text').html('Sedang');
                     $('.number-text-number').css('font-size', '');
-                    $('.number-text-number').css('font-size', '16vw');
+                    $('.number-text-number').css('font-size', '40vw');
                     $('.number-text-number').css('margin-top', '');
-                    $('.number-text h1').css('letter-spacing', '-1.2vw');
                 } else if (category == 3) {
                     $('.number-text').css('background-color', '');
                     $('.number-text').css('background-color', 'yellow');
                     $('.number-text-number').css('font-size', '');
-                    $('.number-text-number').css('font-size', '15vw');
-                    $('.number-text h1').css('letter-spacing', '-2vw');
-                    $('.number-text-number').css('margin-top', '-0.7vw');
-                    $('.number-text h1').css('-webkit-text-stroke-width', '0.4vw');
+                    $('.number-text-number').css('font-size', '35vw');
+                    $('.number-text-number').css('margin-top', '1vw');
+                    $('.number-text h1').css('letter-spacing', '-3vw');
                     $('.baik-text').html('Tidak Sehat');
                 } else if (category == 4) {
                     $('.number-text').css('background-color', '');
                     $('.number-text').css('background-color', 'red');
                     $('.baik-text').html('Sangat Tidak Sehat');
                     $('.number-text-number').css('font-size', '');
-                    $('.number-text-number').css('font-size', '15vw');
-                    $('.number-text h1').css('letter-spacing', '-2vw');
-                    $('.number-text-number').css('margin-top', '-0.7vw');
-                    $('.number-text h1').css('-webkit-text-stroke-width', '0.4vw');
+                    $('.number-text-number').css('font-size', '35vw');
+                    $('.number-text-number').css('margin-top', '1vw');
+                    $('.number-text h1').css('letter-spacing', '-3vw');
                 } else if (category == 5) {
                     $('.number-text').css('background-color', '');
                     $('.number-text').css('background-color', 'black');
                     $('.baik-text').html('Berbahaya');
                     $('.number-text-number').css('font-size', '');
-                    $('.number-text-number').css('font-size', '15vw');
-                    $('.number-text h1').css('letter-spacing', '-2vw');
-                    $('.number-text-number').css('margin-top', '-0.7vw');
-                    $('.number-text h1').css('-webkit-text-stroke-width', '0.4vw');
+                    $('.number-text-number').css('font-size', '35vw');
+                    $('.number-text-number').css('margin-top', '1vw');
+                    $('.number-text h1').css('letter-spacing', '-3vw');
 
                 }
             }
